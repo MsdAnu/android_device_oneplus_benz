@@ -28,4 +28,10 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">119</integer>
+
+    <!-- Custom pickup sensor for doze customization -->
+    <string name="pickup_sensor" translatable="false">android.sensor.tilt_detector</string>
+
+    <!-- Sensor trigger values -->
+    <item name="pickup_sensor_value" format="float" type="dimen">0.0</item>
 </resources>
