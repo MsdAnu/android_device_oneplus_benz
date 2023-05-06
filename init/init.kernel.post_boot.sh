@@ -50,11 +50,8 @@ function configure_zram_parameters() {
 		let zRamSizeMB=4096
 	fi
 
-	# And enable lz4 zram compression for Go targets.
-	low_ram=`getprop ro.config.low_ram`
-	if [ "$low_ram" == "true" ]; then
-		echo lz4 > /sys/block/zram0/comp_algorithm
-	fi
+	# Always enable lz4 zram compression
+	echo lz4 > /sys/block/zram0/comp_algorithm
 
 	if [ -f /sys/block/zram0/disksize ]; then
 		if [ -f /sys/block/zram0/use_dedup ]; then
