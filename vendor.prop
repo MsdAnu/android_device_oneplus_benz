@@ -37,7 +37,7 @@ vendor.qc2audio.per_frame.flac.dec.enabled=true
 
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
-bluetooth.device.default_name=OnePlus Nord CE 4 5G
+bluetooth.device.default_name=OnePlus Nord CE4
 bluetooth.hardware.power.idle_cur_ma=6
 bluetooth.hardware.power.operating_voltage_mv=3700
 bluetooth.hardware.power.rx_cur_ma=28
@@ -184,7 +184,7 @@ sys.usb.mtp.batchcancel=1
 vendor.usb.controller=a600000.dwc3
 vendor.usb.diag.func.name=ffs
 vendor.usb.dpl.inst.name=dpl
-vendor.usb.product_string=OnePlus Nord CE 4 5G
+vendor.usb.product_string=OnePlus Nord CE4
 vendor.usb.qdss.inst.name=qdss_sw
 vendor.usb.rmnet.func.name=gsi
 vendor.usb.rmnet.inst.name=rmnet
