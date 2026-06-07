@@ -20,6 +20,11 @@
     "target_path": "packages/apps/LunarisDolby"
   },
   {
+    "repository": "crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r596125",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r596125",
+    "remote": "crdroid-gitlab"
+  },
+  {
     "repository": "crdroidandroid/proprietary_vendor_oneplus_dolby",
     "target_path": "vendor/oneplus/dolby",
     "remote": "crdroid-gitlab"
