@@ -106,7 +106,7 @@ TARGET_KERNEL_CONFIG := \
     vendor/kalama_GKI.config \
     vendor/oplus/kalama_GKI.config \
     vendor/debugfs.config
-TARGET_KERNEL_CLANG_VERSION := r596125
+TARGET_KERNEL_CLANG_VERSION := r574158
 
 # Kernel modules
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
