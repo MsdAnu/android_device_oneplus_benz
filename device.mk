@@ -234,8 +234,8 @@ $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class
 PRODUCT_SYSTEM_PROPERTIES += \
     sys.brightness.disable_gamma_conversion=true
 
-# IR
-$(call inherit-product, vendor/oneplus/ir/config.mk)
+# Camera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.consumerir.xml
