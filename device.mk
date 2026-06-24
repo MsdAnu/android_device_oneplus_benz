@@ -462,3 +462,6 @@ $(call inherit-product, vendor/oneplus/dolby/config.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/benz/benz-vendor.mk)
+
+# V4A
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
