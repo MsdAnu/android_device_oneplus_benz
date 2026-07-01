@@ -67,4 +67,5 @@
     <bool name="config_deviceHaveWakeUpProximity">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_dozeAlwaysOnEnabled">true</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
 </resources>
