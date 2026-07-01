@@ -29,3 +29,25 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=CPH2613 \
     SystemDevice=OP5D3FL1 \
     SystemName=CPH2613
+
+# Camera information (multiple sensors supported)
+AXION_CAMERA_REAR_INFO := 50,8
+AXION_CAMERA_FRONT_INFO := 16
+
+# Maintainer name (underscores become spaces in the UI)
+AXION_MAINTAINER := Msdian
+
+# Processor name (underscores become spaces)
+AXION_PROCESSOR := Snapdragon_7_Gen_3
+
+# Charging
+BYPASS_CHARGE_SUPPORTED := true 
+
+# Flashlight strength
+TORCH_STR_SUPPORTED := true
+
+TARGET_ENABLE_BLUR := true
+TARGET_INCLUDE_AXFX := true
+
+# To include Gapps 
+WITH_GMS := true
